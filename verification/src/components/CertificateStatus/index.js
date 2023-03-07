@@ -26,34 +26,6 @@ const {documentLoaders} = require('jsonld');
 const {node: documentLoader} = documentLoaders;
 const {contexts} = require('security-context');
 const credentialsv1 = require('../../utils/credentials.json');
-const testCertificateContext = {
-    "@context": {
-        "@version": 1.1,
-        "@protected": true,
-        "SkillCertificate": {
-            "@id": "https://github.com/sunbird-specs/vc-specs#SkillCertificate",
-            "@context": {
-                "id": "@id",
-                "@version": 1.1,
-                "@protected": true,
-                "skills": "schema:Text"
-            }
-        },
-        "Person":{
-            "@id":"https://github.com/sunbird-specs/vc-specs#Person",
-            "@context": {
-                "name":"schema:Text"
-            }
-        },
-        "trainedOn":{
-            "@id":"https://github.com/sunbird-specs/vc-specs#trainedOn",
-            "@context": {
-                "name":"schema:Text"
-            }
-        }
-    }
-};
-const testCertificateContextUrl = "https://gist.githubusercontent.com/dileepbapat/eb932596a70f75016411cc871113a789/raw/498e5af1d94784f114b32c1ab827f951a8a24def/skill";
 const request = require('request');
 
 const customLoader = url => {
@@ -63,8 +35,7 @@ const customLoader = url => {
         "https://example.com/i/india": config.certificatePublicKey,
         "https://w3id.org/security/v1": contexts.get("https://w3id.org/security/v1"),
         'https://www.w3.org/2018/credentials#': credentialsv1,
-        "https://www.w3.org/2018/credentials/v1": credentialsv1,
-        [testCertificateContextUrl]: testCertificateContext,
+        "https://www.w3.org/2018/credentials/v1": credentialsv1
     };
     let context = c[url];
     if (context === undefined) {
@@ -233,7 +204,7 @@ export const CertificateStatus = ({certificateData, goBack}) => {
             </h3>
             <br/>
             {
-                isValid && <h5>Training Certificate</h5>
+                isValid && <h5>SunbirdED Developer Bootcamp Certificate</h5>
             }
             {
                 isValid && <table className="mt-3">
