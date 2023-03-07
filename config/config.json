@@ -8,7 +8,7 @@
     "did:authorizedIssuer:23423#21": {
       "publicKey": "DaipNW4xaH2bh1XGNNdqjnSYyru3hLnUgTBSfSvmZ2hi",
       "privateKey": "41WN3qJL5Agwg8MERbEmMLKnkNstv5iSD8oJ8sRnDyBUegeGKgjqgKm9qZTmhcLQSWCdTkSN3Cd1tPqMn1rjM3BJ",
-      "signatureType": "ED25519"
+      "signatureType": "RSA"
     }
   }
 }
