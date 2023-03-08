@@ -277,9 +277,9 @@ text {letter-spacing:normal;font-family:'Noto Sans', 'Noto Sans Devanagari', 'No
 
 <!-- qr code area -->
 <image xlink:href="{{qrCode}}" class="qr-code" height="120" width="120" y="65%" x="80%" id="QrCode"></image>
-<g transform="translate(-26,-10)">
-<text class="qr-text" x="620" y="525" font-size="10px">This certificate can be verified by scanning</text>
-<text class="qr-text" x="568" y="538" font-size="10px">the QR code at <a style="text-decoration:underline;" xlink:href="https://contributor.sunbird.org/verify">https://contributor.sunbird.org/certs/verify</a></text>
+<g transform="translate(-44,-10)">
+<text class="qr-text" x="642" y="525" font-size="10px">This certificate can be verified by scanning</text>
+<text class="qr-text" x="566" y="538" font-size="10px">the QR code at <a style="text-decoration:underline;" xlink:href="https://contributor.sunbird.org/certs/verify">https://contributor.sunbird.org/certs/verify</a></text>
 </g>
 <!-- dynamic font size code for course title and user name -->
  <script type='application/ecmascript'>  <![CDATA[
