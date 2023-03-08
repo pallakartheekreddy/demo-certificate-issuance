@@ -257,7 +257,7 @@
   <text class="para secondline svgResizableText" x="420.949226" y="322.262614" id="svg_97" xml:space="preserve">{{credentialSubject.name}}</text>
   <text class="para thirdline" x="420.949988" y="353.969933" id="svg_98" text-anchor="middle" xml:space="preserve">for participating in</text>
   <text class="para fourthline svgResizableText" x="420.949988" y="389.33579" id="svg_99" font-size="20" text-anchor="middle" xml:space="preserve"><tspan font-size="18">the</tspan> "SunbirdED Developer Bootcamp"</text>
-  <text class="para fifthline" x="420.952617" y="425.917659" id="svg_101" xml:space="preserve"><tspan font-size="18">conducted on</tspan> 2nd and 3rd March, 2023.</text>
+  <text class="para fifthline" x="420.952617" y="425.917659" id="svg_101" xml:space="preserve"><tspan font-size="18">conducted on the</tspan> 2nd and 3rd March, 2023.</text>
   </g>
   
   
@@ -279,7 +279,7 @@
   <image xlink:href="{{qrCode}}" class="qr-code" height="120" width="120" y="65%" x="80%" id="QrCode"></image>
   <g transform="translate(-26,-10)">
   <text class="qr-text" x="620" y="525" font-size="10px">This certificate can be verified by scanning</text>
-  <text class="qr-text" x="568" y="538" font-size="10px">the QR code at <a style="text-decoration:underline;" xlink:href="https://contributor.sunbird.org/verify">https://contributor.sunbird.org/verify</a></text>
+  <text class="qr-text" x="568" y="538" font-size="10px">the QR code at <a style="text-decoration:underline;" xlink:href="https://contributor.sunbird.org/verify">https://contributor.sunbird.org/certs/verify</a></text>
   </g>
   <!-- dynamic font size code for course title and user name -->
    <script type='application/ecmascript'>  <![CDATA[
