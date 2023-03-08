@@ -42,7 +42,7 @@ export const VerifyCertificate = () => {
                     {!showScanner &&
                     <>
                         <img src={VerifyCertificateImg} className="banner-img" alt="banner-img"/>
-                        <h3 className="text-center">Verify Sunbird RC Certificate</h3>
+                        <h3 className="text-center">Verify SunbirdED Developer Bootcamp Certificate</h3>
                         <CustomButton className="green-btn" onClick={() => setShowScanner(true)}>
                             <span>Scan QR code</span>
                             <img className="ml-3" src={QRCodeImg} alt={""}/>
